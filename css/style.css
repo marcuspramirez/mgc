@@ -1,3 +1,7 @@
+
+
+
+
 /* -----------------------------------------------------------------------------
 	Jestem - CSS Styles v.1.0
 
@@ -18,6 +22,77 @@
 /* ----------------------------------------------------------------------------- */
 /* --- 1.  DOCUMENT SETUP
 /* ----------------------------------------------------------------------------- */
+
+/* Nav */
+
+.themesflat-top {
+	background-color: #181818;
+	font-size: 30px;
+	padding: 5px 0 5px;
+}
+
+.flat-infomation {
+	float: left;
+}
+
+
+.flat-infomation li,
+.box-account li {
+	font-family: 'Montserrat';
+	display: inline-block;
+	position: relative;
+	font-size: 17px;
+	line-height: 30px;
+	padding-left: 20px;
+	color: #f1a619;
+}
+
+.flat-infomation li {
+	margin-right: 27px;
+}
+
+.box-account li a,
+.flat-infomation li a {
+	color: #fff;
+}
+
+.box-account li a:hover,
+.flat-infomation li a:hover {
+	color: #f1a619;
+}
+
+.flat-infomation li:before,
+ul.box-account li:before {
+	content: "\f095";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-family: 'FontAwesome';
+}
+
+.flat-infomation li.email:before {
+	content: "\f0e0";
+}
+
+/* Box Account */
+.box-account {
+	float: right;
+}
+
+ul.box-account li {
+	margin-left: 23px;
+	padding-left: 19px;
+}
+
+ul.box-account li.login:before {
+	content: "\f007";
+}
+
+ul.box-account li.sign-in:before {
+	content: "\f090";
+}
+
+
 
 
 	html {
